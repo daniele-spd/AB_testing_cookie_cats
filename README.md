@@ -132,3 +132,19 @@ CSV data are in the folder "raw_data".
 Jupyter Notebooks "01 - AB testing report.ipynb" and "02 - Inactive users report.ipynb" can run the tests again.
 
 An overview of the project and the corresponding results is in "01 - AB testing report.pdf" and "02 - Inactive users report.pdf".
+
+## Requirements
+Python 3.12.12
+
+## Installation
+* Clone the repository: 
+    * git clone https://github.com/daniele-spd/AB_testing_cookie_cats.git
+* Navigate to the project directory: 
+    * cd REPOSITORY
+* (Optional but recommended) Create a virtual environment: 
+    * python -m venv venv
+* Activate the environment: 
+    * Windows: venv\Scripts\activate 
+    * Linux / macOS: source venv/bin/activate
+* Install the dependencies: 
+    * pip install -r requirements.txt
